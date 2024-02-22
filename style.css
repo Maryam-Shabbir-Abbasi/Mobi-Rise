@@ -1,0 +1,737 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    word-spacing: 24px;
+    color: #202020;
+}
+
+.logo {
+    height: 150px;
+    width: 120px;
+
+}
+
+.icon2 {
+    height: 24px;
+    width: 24px;
+}
+
+.icon3 {
+    height: 24px;
+    width: 24px;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+}
+
+.button1 {
+    border-radius: 20px;
+    background-color: #5fcac7;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    font-size: 1.125rem;
+}
+
+.welcome {
+    background-image: url(images/bg2.jpg);
+    height: 1000;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.line1 {
+    font-size:100px;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 150;
+}
+
+.line2 {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 450;
+}
+
+.button2 {
+    border-radius: 20px;
+    background-color: #5fcac7;
+    border: none;
+    color: #ffffff;
+    height: 80px;
+    width: 290px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 650;
+}
+
+.specailities {
+    background-color: white;
+    color: rgba(77, 38, 38, 0.836);
+    margin-top: 1200;
+    font-size: 50px;
+    font-weight: bolder;
+    background-image: url(images/img1.jpg);
+    height: 700px;
+}
+
+.specailities1 {
+    margin-top: 100;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.item1 {
+    height: 200px;
+    border-radius: 10%;
+}
+
+.item2 {
+    height: 200px;
+    border-radius: 10%;
+}
+
+.item3 {
+    height: 200px;
+    border-radius: 10%;
+}
+
+.cap1 {
+    position: absolute;
+    margin-left: -900px;
+    margin-top: 210px;
+    font-size: 30px;
+}
+
+.cap2 {
+    position: absolute;
+    margin-left: -0px;
+    margin-top: 210px;
+    font-size: 30px;
+}
+
+.cap3 {
+    font-size: 30px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 210px;
+}
+
+.magic {
+    background-image: url(images/img2.jpg);
+    opacity: 0.9;
+    position: absolute;
+    height: 695px;
+    width: 1340px;
+
+
+}
+
+.cake {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 610px;
+    margin-top: 240px;
+}
+
+.magic1 {
+    color: white;
+    margin-left: 450px;
+    margin-top: 400px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.magic2 {
+    color: white;
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+.button3 {
+    border-radius: 20px;
+    background-color: #5fcac7;
+    color: #ffffff;
+    height: 70px;
+    width: 260px;
+    font-size: 30px;
+    margin-left: 520px;
+    position: absolute;
+    border-color: white;
+}
+
+.border {
+    display: inline;
+    border-radius: 0%;
+    position: absolute;
+    background-color: #5fcac7;
+    border: white;
+    height: 800px;
+    border-color: white;
+    width: 1340px;
+    opacity: 0.8;
+}
+
+.creations {
+    background-color: white;
+    height: 700PX;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 510px;
+    font-size: 40px;
+    color: rgba(77, 38, 38, 0.836);
+    font-weight: bold;
+
+}
+
+.creationss {
+    position: absolute;
+
+
+}
+
+.item01 {
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: -480px;
+    width: 300px;
+}
+
+.item02 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: -150px;
+}
+
+.item03 {
+    height: 200px;
+    border-radius: 10%;
+    width: 300px;
+    margin-left: 180px;
+}
+
+.item04 {
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+.creationss1 {
+    position: absolute;
+    display: flex;
+}
+
+.itemone {
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: -480px;
+    width: 300px;
+    margin-top: 250px;
+}
+
+.itemtwo {
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: -150px;
+    width: 300px;
+    margin-top: 250px;
+}
+
+.itemthree {
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 180px;
+    width: 300px;
+    margin-top: 250px;
+}
+
+.itemfour {
+    height: 200px;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 510px;
+    width: 300px;
+    margin-top: 250px;
+}
+
+.recipes {
+    background-color: white;
+    font-size: 70px;
+    color: rgba(46, 20, 20, 0.836);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.recipe {
+
+    position: absolute;
+
+    margin-top: 1600px;
+    background-image: url(images/img4.jpg);
+    height: 1400px;
+    width: 1340px;
+    color: rgba(46, 20, 20, 0.836);
+    text-align: center;
+
+
+}
+
+.cakey {
+    color: rgba(46, 20, 20, 0.836);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 640px;
+}
+
+.one {
+    text-align: center;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.cakeyy {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -200px;
+}
+
+.two {
+    color: rgba(46, 20, 20, 0.836);
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 170px;
+    margin-left: 600px;
+}
+
+.Ingredients {
+    font-size: x-large;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 130px;
+}
+
+.pudding {
+    position: absolute;
+    border-radius: 200px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: -60px;
+
+}
+
+.eve {
+    position: absolute;
+    font-size: x-large;
+    margin-left: 600px;
+    margin-top: 365px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 400px;
+    background-color: palevioletred;
+    opacity: 0.7;
+    height: 900px;
+}
+
+.clients {
+    background-image: url(images/img5.jpg);
+    height: 900px;
+
+}
+
+.main1 {
+    position: absolute;
+    margin-left: 550px;
+    color: whitesmoke;
+    margin-top: 140px;
+    font-size: 45px;
+}
+
+.main01 {
+    position: absolute;
+    margin-top: -590px;
+    font-size: large;
+    color: white;
+    margin-left: 330px;
+    font-weight: 500;
+
+}
+
+.main02 {
+    position: absolute;
+    margin-top: -500px;
+    font-size: large;
+    color: white;
+    margin-left: 330px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.main03 {
+    position: absolute;
+    margin-top: -470px;
+    font-size: large;
+    color: white;
+    margin-left: 330px;
+    font-weight: 500;
+}
+
+.face1 {
+    border-radius: 300px;
+    height: 90px;
+    position: absolute;
+    margin-left: -850px;
+    margin-top: -600px;
+}
+
+.main04 {
+    position: absolute;
+    margin-top: -590px;
+    font-size: large;
+    color: white;
+    margin-left: 900px;
+    font-weight: 500;
+
+}
+
+.main05 {
+    position: absolute;
+    margin-top: -500px;
+    font-size: large;
+    color: white;
+    margin-left: 900px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.main06 {
+    position: absolute;
+    margin-top: -470px;
+    font-size: large;
+    color: white;
+    margin-left: 900px;
+    font-weight: 500;
+}
+
+.main07 {
+    position: absolute;
+    margin-top: -290px;
+    font-size: large;
+    color: white;
+    margin-left: 330px;
+    font-weight: 500;
+
+}
+
+.main08 {
+    position: absolute;
+    margin-top: -200px;
+    font-size: large;
+    color: white;
+    margin-left: 330px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.main09 {
+    position: absolute;
+    margin-top: -170px;
+    font-size: large;
+    color: white;
+    margin-left: 330px;
+    font-weight: 500;
+}
+
+.main10 {
+    position: absolute;
+    margin-top: -290px;
+    font-size: large;
+    color: white;
+    margin-left: 900px;
+    font-weight: 500;
+
+}
+
+.main11 {
+    position: absolute;
+    margin-top: -200px;
+    font-size: large;
+    color: white;
+    margin-left: 900px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.main12 {
+    position: absolute;
+    margin-top: -170px;
+    font-size: large;
+    color: white;
+    margin-left: 900px;
+    font-weight: 500;
+}
+
+.specail {
+    position: absolute;
+    margin-top: 3200px;
+    margin-left: 100px;
+}
+
+.stock {
+    color: lightgray;
+    font-size: 30px;
+    font-weight: 100;
+    word-spacing: 8px;
+
+}
+
+.Goods {
+    color: black;
+    font-weight: 100;
+    font-size: large;
+    text-align: left;
+}
+
+.price {
+    position: absolute;
+    margin-left: -10px;
+    color: lightgray;
+    font-size: 30px;
+    font-weight: 100;
+    word-spacing: 8px;
+    margin-top: -35px;
+
+}
+
+.prices {
+    position: absolute;
+    margin-left: 380px;
+    color: black;
+    font-weight: 100;
+    font-size: large;
+    margin-top: 3395px;
+}
+
+.amounts {
+    position: absolute;
+    margin-left: -10px;
+    color: lightgray;
+    font-size: 30px;
+    font-weight: 100;
+    word-spacing: 8px;
+    margin-top: -30px;
+
+}
+
+.amount {
+    position: absolute;
+    margin-left: 660px;
+    color: black;
+    font-weight: 100;
+    font-size: large;
+    margin-top: 3395px;
+}
+
+.questions {
+    font-weight: 100;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 950;
+    margin-top: 3450px;
+    background-color: gainsboro;
+    width: 300px;
+    height: 290px;
+
+}
+
+.q1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: large;
+    color: black;
+}
+
+.q2 {
+    margin-left: 20px;
+    font-size: large;
+    color: #5fcac7
+}
+
+.q3 {
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: large;
+    color: #5fcac7
+}
+
+.secondlastbar {
+    position: absolute;
+    margin-top: 4000;
+    background-image: url(images/img6.jpg);
+    background-size: cover;
+    width: 1330px;
+    height: 600px;
+}
+
+.ONE {
+    
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 370px;
+    color: white;
+    font-size: 60px;
+}
+
+.TWO input {
+    border-radius: 30px;
+    background-color: transparent;
+    color: none;
+    height: 60px;
+    width: 410px;
+    font-size: 25px;
+    margin-left: 35px;
+    position: absolute;
+    margin-top: 130px;
+    font-weight: bold;
+
+
+}
+
+.THREE input {
+
+    position: absolute;
+    border-radius: 30px;
+    color: white;
+    height: 60px;
+    width: 290px;
+    font-size: 30px;
+    margin-left: -350px;
+    position: absolute;
+    margin-top: 300px;
+    background-color: #5fcac7;
+    border: none;
+}
+
+.THREE input:hover {
+    transition: all 1s ease-in-out;
+    background-color: rgb(7, 43, 83);
+}
+
+.follow {
+    position: absolute;
+    letter-spacing: 7px;
+    color: white;
+    font-size: large;
+    font-weight: 200;
+    margin-left: 580px;
+    margin-top: 450px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 510px;
+    
+}
+.last{
+    background-color: #202020;
+    width: 1330px;
+    position: absolute;
+    margin-top: 4600px;
+    height: 350px;
+
+}
+.More{
+    display: flex;
+    font-size: large;
+color: white;
+font-weight: lighter;
+word-spacing: 30px;
+margin-left: 120px;
+position: absolute;
+margin-top: 70px;
+}
+.orders{
+    display: flex;
+    position: absolute;
+    margin-left: 900px;
+word-spacing: 5px;
+}
+.logolast{
+    position: absolute;
+    margin-left: 450px;
+}
+.lastline{
+    word-spacing: 10px;
+    margin-left: 110px;
+    margin-top: 200px;
+
+}
+.customer01{
+position: absolute;
+height: 150px;
+    width: 150px;
+    border-radius: 900px;
+    margin-top: -600px;
+    margin-left: -550px;
+}
+.customer02{
+    height: 150px;
+    width: 150px;
+position: absolute;
+margin-top: -600px;
+border-radius: 900px;
+}
+.customer03{
+    height: 150px;
+    width: 150px;
+position: absolute;
+margin-top: -300px;
+border-radius: 900px;
+margin-left: -550px;
+}
+.customer04{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: -300px;
+    border-radius: 900px;
+   
+}
